@@ -24,7 +24,7 @@
         navigationArrows: "solo",
         navigationStyle: "preview4",
         touchenabled: "on",
-        swipe_velocity: 0.7,
+        swipe_velocity: 0.1,
         swipe_min_touches: 1,
         swipe_max_touches: 1,
         drag_block_vertical: false,
@@ -48,7 +48,7 @@
         autoHeight: "off",
         forceFullWidth: "off",
         hideThumbsOnMobile: "off",
-        hideNavDelayOnMobile: 500,
+        hideNavDelayOnMobile: 100,
         hideBulletsOnMobile: "off",
         hideArrowsOnMobile: "off"
     });
