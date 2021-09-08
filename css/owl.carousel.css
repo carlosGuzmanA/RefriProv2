@@ -11,10 +11,10 @@
    height: 0
 }
 .owl-carousel {
+   -ms-touch-action: none;
    display: none;
    position: relative;
-   width: 100%;
-   -ms-touch-action: pan-y
+   width: 100%;  
 }
 .owl-carousel .owl-wrapper {
    display: none;

@@ -221,6 +221,9 @@ p {
 	background: #fff;
 	z-index: 9999999999;
 }
+.sortable-handler {
+    touch-action: none;
+  }
 
 .spinner {
 	position: absolute;
