@@ -167,7 +167,7 @@
        $('.progress').each(function(){
             $(this).find('.progress-bar').animate({
                 width:$(this).attr('data-percent')
-            },800);
+            },0);
         });
         }, { offset: '100%',
              triggerOnce: true 
@@ -196,7 +196,7 @@
         /* -------------------
         Header Animation
         ---------------------*/
-        if ($(this).scrollTop() > 5){  
+        if ($(this).scrollTop() > 1){  
             $('nav').addClass("navbar-small")
         }
         else{
@@ -232,13 +232,14 @@
     /* -------------------
     Smooth scrolling to anchor
     ---------------------*/
-    $('.to-section a,.btn-scroll').bind('click', function(event) {
-        var $anchor = $(this);
-        $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top - 54
-        }, 1000, 'easeInOutExpo');
-        event.preventDefault();
-    });
+    // $('.to-section a,.btn-scroll').bind('click', function(event) {
+    //     var $anchor = $(this);
+    //     $('html, body').stop().animate({
+    //         scrollTop: $($anchor.attr('href')).offset().top - 54
+    //     }, 1000, 'easeInOutExpo');
+    //     event.preventDefault();
+    //     return false;
+    // });
     /* -------------------
     Back to top button function
     ---------------------*/
