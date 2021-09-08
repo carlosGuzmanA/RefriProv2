@@ -11,7 +11,7 @@
     Revolution Sliders
     ---------------------*/
     $('.tp-banner').show().revolution({
-        delay: 16000,
+        delay: 8000,
         startwidth: 1170,
         startheight: 700,
         hideThumbs: 200,
@@ -48,7 +48,7 @@
         autoHeight: "off",
         forceFullWidth: "off",
         hideThumbsOnMobile: "off",
-        hideNavDelayOnMobile: 1500,
+        hideNavDelayOnMobile: 500,
         hideBulletsOnMobile: "off",
         hideArrowsOnMobile: "off"
     });
