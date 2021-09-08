@@ -114,35 +114,35 @@
             navigation: false,
         });
     });
-    $("#owl-slider").owlCarousel({
-        autoPlay : true,
-        singleItem : true,
-        pagination: true,
-        navigation: false,
-        navigationText : ['<i class="icon ion-chevron-left"></i>','<i class="icon ion-chevron-right"></i>'],
-    });
+    // $("#owl-slider").owlCarousel({
+    //     autoPlay : true,
+    //     singleItem : true,
+    //     pagination: true,
+    //     navigation: false,
+    //     navigationText : ['<i class="icon ion-chevron-left"></i>','<i class="icon ion-chevron-right"></i>'],
+    // });
     /* -------------------
     Parallax Sections
     ---------------------*/
-    if(!Modernizr.touch){
-        $('#home-parallax-fullscreen').parallax("50%", 0.5); 
-        $('#home-parallax-fullwidth').parallax("50%", 0.5); 
-        $('.parallax-section-1').parallax("50%", 0.5);
-        $('.parallax-section-2').parallax("50%", 0.5);
-        $('.parallax-section-3').parallax("50%", 0.5);
-        $('.parallax-section-4').parallax("50%", 0.5);
-        $('.parallax-section-5').parallax("50%", 0.5);
-        $('.parallax-section-6').parallax("50%", 0.5);
-        $('.parallax-section-7').parallax("50%", 0.5); 
-        $('.parallax-section-8').parallax("50%", 0.5); 
-        $('.parallax-section-9').parallax("50%", 0.5); 
-        $('#home-landing').parallax("50%", 0.5);
+    // if(!Modernizr.touch){
+    //     $('#home-parallax-fullscreen').parallax("50%", 0.5); 
+    //     $('#home-parallax-fullwidth').parallax("50%", 0.5); 
+    //     $('.parallax-section-1').parallax("50%", 0.5);
+    //     $('.parallax-section-2').parallax("50%", 0.5);
+    //     $('.parallax-section-3').parallax("50%", 0.5);
+    //     $('.parallax-section-4').parallax("50%", 0.5);
+    //     $('.parallax-section-5').parallax("50%", 0.5);
+    //     $('.parallax-section-6').parallax("50%", 0.5);
+    //     $('.parallax-section-7').parallax("50%", 0.5); 
+    //     $('.parallax-section-8').parallax("50%", 0.5); 
+    //     $('.parallax-section-9').parallax("50%", 0.5); 
+    //     $('#home-landing').parallax("50%", 0.5);
         
-        /* -------------------
-        Animation.css calling
-        ---------------------*/
-        new WOW().init(); 
-    }
+    //     /* -------------------
+    //     Animation.css calling
+    //     ---------------------*/
+    //     new WOW().init(); 
+    // }
     /* -------------------
     Google map
     ---------------------*/
@@ -175,10 +175,10 @@
     /* -------------------
     Fun facts counter
     ---------------------*/
-    $('.counter').counterUp({
-        delay: 8,
-        time: 1400
-    });
+    // $('.counter').counterUp({
+    //     delay: 8,
+    //     time: 1400
+    // });
     /* -------------------
     Video section lightbox
     ---------------------*/
