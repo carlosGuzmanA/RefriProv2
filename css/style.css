@@ -3849,3 +3849,20 @@ pre {
 	margin: -22px auto 0 auto;
 }
 
+/* para las card nuevas */
+
+/* Generals resets and unimportant stuff */
+* { margin: 0px; padding: 0px; }
+body {
+	background: #eaebec;
+	font-family: "Open Sans", sans-serif; 
+}
+#view-code{
+  color:#48cfad; 
+  font-size:14px;
+  text-transform:uppercase;
+  font-weight:700;
+  text-decoration:none;
+  position:absolute;top:640px; left:50%;margin-left:-35px;
+}
+#view-code:hover{color:#34c29e;}
