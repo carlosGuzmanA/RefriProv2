@@ -1579,7 +1579,8 @@ nav {
     overflow: hidden;
 }
 .effect:hover .cbp-item-wrapper .img .overlay .expand {
-  top: 40%!important;
+  /* top: 75%!important; */
+  top: 50%!important;
   margin-top: -30px;
   opacity: 1;
 }
@@ -1832,7 +1833,7 @@ blockquote strong {
 }
 .cbp-item-w h4 {
     margin-top: 10px;
-    margin-bottom: 2px;
+    margin-bottom: 20px;
 }
 .cbp-l-loadMore-button .cbp-l-loadMore-button-link {
     background: #f6f7f7;
@@ -1869,6 +1870,14 @@ blockquote strong {
     width: 34px;
     top: 8px;
 }
+/* .cbp-popup-lightbox-img {
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 40px 0 40px;
+    box-shadow: 0 0 8px rgb(0 0 0 / 60%);
+} */
 .cbp-popup-singlePage-counter {
     top: -24px;
     font-family: 'Exo', sans-serif;
