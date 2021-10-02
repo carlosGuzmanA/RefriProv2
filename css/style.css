@@ -1363,8 +1363,8 @@ nav {
 
 /*----- About Section -----*/
 #about {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 0px;
+    padding-bottom: 75px;
 }
 .about-text {
     margin-top: 20px;
@@ -3875,3 +3875,4 @@ body {
   position:absolute;top:640px; left:50%;margin-left:-35px;
 }
 #view-code:hover{color:#34c29e;}
+

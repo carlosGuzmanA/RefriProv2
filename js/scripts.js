@@ -183,7 +183,7 @@
     Video section lightbox
     ---------------------*/
     $('#video-lightbox').cubeportfolio({
-        // gridAdjustment: 'alignCenter',
+        gridAdjustment: 'alignCenter',
         lightboxDelegate: '.cbp-lightbox',
         lightboxGallery: true,
         lightboxShowCounter: false
